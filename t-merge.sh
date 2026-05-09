@@ -41,4 +41,4 @@ cat $f-0001.bin \
 	$f-0036.bin \
 	$f-0037.bin >$f
 
-md5sum -c $f-md5sum.txt
+md5sum -c t-$f.md5
